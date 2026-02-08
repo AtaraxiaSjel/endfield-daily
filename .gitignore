@@ -2,6 +2,7 @@
 *
 
 # But not these files...
+!/.github/**
 !/.gitignore
 
 !*.go
@@ -14,7 +15,7 @@
 !default.nix
 !flake.nix
 !flake.lock
-!config-example.toml
+!.goreleaser.yaml
 
 # ...even if they are in subdirectories
 !*/
